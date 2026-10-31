@@ -1,0 +1,29 @@
+beast3-agriculture-food-security/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── docs/
+│   ├── charter.md
+│   ├── governance.md
+│   ├── policies.md
+│   └── food-security-framework.md
+│
+├── src/
+│   ├── core/
+│   │   ├── FarmRegistry.ts
+│   │   ├── FoodInventory.ts
+│   │   ├── DistributionNetwork.ts
+│   │   ├── CommunityGardens.ts
+│   │   └── AgricultureReport.ts
+│   │
+│   ├── api/
+│   │   └── agriculture.ts
+│   │
+│   └── app/
+│       ├── layout.tsx
+│       └── page.tsx
+│
+└── public/
+    └── logo.png
